@@ -21,20 +21,12 @@ table{
   width:100%;
 }
 
-.blue{
-  border:2px solid #1ABC9C;
+.green{
+  border:2px solid #839224;
 }
 
-.blue thead{
-  background:#1ABC9C;
-}
-
-.purple{
-  border:2px solid #9B59B6;
-}
-
-.purple thead{
-  background:#9B59B6;
+.green thead{
+  background:#839224;
 }
 
 thead{

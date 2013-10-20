@@ -27,7 +27,7 @@ echo "<!doctype html>
   <div class=\"container\">
 <h1>HISTORIQUE ANTENNE</h1>
   
-  <table class=\"blue\">\n
+  <table class=\"green\">\n
   <thead>
     <tr>
       <th>Date</th>
