@@ -20,6 +20,8 @@ echo "<!doctype html>
 <head>
   <meta charset=\"utf-8\">
   <link rel=\"stylesheet\" href=\"styles.css\" type=\"text/css\" />
+  <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>
   <script src=\"fix-header.js\" type=\"text/javascript\"></script>
 </head>

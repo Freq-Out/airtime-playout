@@ -1,9 +1,10 @@
 body{
-  font:1.2em normal Arial,sans-serif;
+  font:1.2em normal 'Open Sans', sans-serif;
   color:#34495E;
 }
 
 h1{
+  font-family: 'Voltaire', sans-serif;
   text-align:center;
   text-transform:uppercase;
   letter-spacing:-2px;
@@ -22,11 +23,11 @@ table{
 }
 
 .green{
-  border:2px solid #839224;
+  border:2px solid #56bc8a;
 }
 
 .green thead{
-  background:#839224;
+  background:#56bc8a;
 }
 
 thead{
