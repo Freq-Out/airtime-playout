@@ -36,7 +36,7 @@ echo "<!doctype html>
       <th>Colonne 4</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody>";
 while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
     echo "\t<tr>\n";
     foreach ($line as $col_value) {
