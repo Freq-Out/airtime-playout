@@ -16,18 +16,18 @@ $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 // Printing results in HTML
 echo "<!doctype html>
-<html lang="en">
+<html lang=\"en\">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css" type="text/css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="fix-header.js" type="text/javascript"></script>
+  <meta charset=\"utf-8\">
+  <link rel=\"stylesheet\" href=\"styles.css\" type=\"text/css\" />
+  <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>
+  <script src=\"fix-header.js\" type=\"text/javascript\"></script>
 </head>
 <body>
-  <div class="container">
+  <div class=\"container\">
 <h1>HISTORIQUE ANTENNE</h1>
   
-  <table class="blue">\n";
+  <table class=\"blue\">\n\";
   <thead>
     <tr>
       <th>Colonne 1</th>
