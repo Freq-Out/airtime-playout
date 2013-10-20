@@ -11,7 +11,7 @@ INNER JOIN cc_schedule
 ON cc_files.id=cc_schedule.file_id
 WHERE
 cc_schedule.media_item_played = \'t\' ORDER BY cc_schedule.starts DESC 
-LIMIT 10';
+LIMIT 50';
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 // Printing results in HTML
@@ -27,13 +27,13 @@ echo "<!doctype html>
   <div class=\"container\">
 <h1>HISTORIQUE ANTENNE</h1>
   
-  <table class=\"blue\">\n\";
+  <table class=\"blue\">\n
   <thead>
     <tr>
-      <th>Colonne 1</th>
-      <th>Colonne 2</th>
-      <th>Colonne 3</th>
-      <th>Colonne 4</th>
+      <th>Date</th>
+      <th>Titre</th>
+      <th>Artiste</th>
+      <th>Album</th>
     </tr>
   </thead>
   <tbody>";
