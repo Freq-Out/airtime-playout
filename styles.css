@@ -33,6 +33,9 @@ table{
 
 thead{
   color:white;
+  text-transform:uppercase;
+	font-family: 'Voltaire', sans-serif;
+	font-size: 1.5em;
 }
 
 th,td{
