@@ -10,7 +10,7 @@ h1{
   letter-spacing:-1px;
   font-size:2.5em;
   margin:20px 0;
-  color: #839224;
+  color: #95a629;
 }
 
 .container{
@@ -28,7 +28,7 @@ table{
 }
 
 .green thead{
-  background:#839224;
+  background:#95a629;
 }
 
 thead{
