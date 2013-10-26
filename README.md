@@ -1,6 +1,35 @@
 airtime-playout
 ===============
 
-prototyping a playout history for Airtime
+This is an example of how to display a playout history for Airtime.
 
-THIS IS PROTOTYPE CODE: DO NOT USE!
+##PgSQL Request
+
+Basically, what you want to display, at GMT+1 (Paris, winter time) is, as a PgSQL request:
+
+```
+SELECT to_char(cc_schedule.starts + time '01:00','HH24:MI:SS') AS broadcast_time,
+cc_files.track_title,
+cc_files.artist_name,
+cc_files.album_title 
+FROM cc_files 
+INNER JOIN cc_schedule 
+ON cc_files.id=cc_schedule.file_id 
+WHERE cc_schedule.media_item_played = 't' 
+ORDER BY cc_schedule.starts 
+DESC LIMIT 2
+```
+
+This will display the broadcasted time (trimmed of its year/month/day because we don't care), adapted to the Paris timezone (GMT+1 at the time of this writing), then the title, artist and album name.
+
+
+
+| broadcast_time | track_title | artist_name  |album_title | 
+| ------------- |:-------------:| -----:|
+| 23:27:20      | New life 		| Irene Moon and the collection | | 
+| 23:24:49      | Teen Tonic	| Pierre Henry & Michel Colombier | More Phonoanomalies for Hi-Fi Bugs |
+
+Once you have your table, skin it as you like.
+
+
+
