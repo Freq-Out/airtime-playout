@@ -1,6 +1,8 @@
 body{
   font:0.8em normal 'Open Sans', sans-serif;
   color:#34495E;
+  background-image:url('http://phauneradio.com/wp-content/themes/ninezeroseven/assets/img/theme/subtle_white_feathers.png');
+background-repeat:repeat;
 }
 
 h1{
