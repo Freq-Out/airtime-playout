@@ -28,7 +28,8 @@ echo "<!doctype html>
 <body>
 
   <div class=\"container\">
-  <img src=\" echo http://phauneradio.com/wp-content/uploads/www-logo-phaune.png>\"
+  <img src=\"http://phauneradio.com/wp-content/uploads/www-logo-phaune.png>\"
+  <a href=\"http://phauneradio.com/\" target=\"_blank\"><img class=\"aligncenter\" alt=\"Phaune Radio\" src=\"http://phauneradio.com/wp-content/uploads/www-logo-phaune.png\" width=\"850\" height=\"120\" /></a>
 
 <h1>HISTORIQUE ANTENNE</h1>
   
