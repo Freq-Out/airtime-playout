@@ -36,7 +36,7 @@ echo "<!doctype html>
   <table class=\"green\">\n
   <thead>
     <tr>
-      <th>Date</th>
+      <th>Heure</th>
       <th>Titre</th>
       <th>Artiste</th>
       <th>Album</th>
