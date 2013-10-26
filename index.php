@@ -11,7 +11,7 @@ INNER JOIN cc_schedule
 ON cc_files.id=cc_schedule.file_id
 WHERE
 cc_schedule.media_item_played = \'t\' ORDER BY cc_schedule.starts DESC 
-LIMIT 50';
+LIMIT 42;
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 // Printing results in HTML
