@@ -5,13 +5,13 @@ $dbconn = pg_connect("host=localhost dbname=airtime user=airtime password=airtim
     or die('Could not connect: ' . pg_last_error());
 
 // http://www.w3resource.com/PostgreSQL/postgresql-join.php
-$query = 'SELECT cc_schedule.starts,cc_files.track_title,cc_files.artist_name,cc_files.album_title
+$query = "SELECT cc_schedule.starts,cc_files.track_title,cc_files.artist_name,cc_files.album_title
 FROM cc_files
 INNER JOIN cc_schedule 
 ON cc_files.id=cc_schedule.file_id
 WHERE
 cc_schedule.media_item_played = \'t\' ORDER BY cc_schedule.starts DESC 
-LIMIT 42;
+LIMIT 42";
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 // Printing results in HTML
