@@ -46,7 +46,7 @@ th,td{
 }
 
 tbody tr:nth-child(even){
-  background:#ECF0F1;
+  background:#f8f8f8;
 }
 
 tbody tr:hover{
