@@ -28,7 +28,7 @@ This will display the broadcasted time (trimmed of its year/month/day because we
 | 23:27:20        | Title Powa  	| Babar Tist    | Anal Bum      | 
 | 23:24:49        | Patrack       | Anar Tist     | Bootleg       |
 
-Once you have your table, skin it as you like.
+Once you have your table, skin it as you like (CSS, JS etc.).
 
 
 
