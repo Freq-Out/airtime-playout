@@ -18,7 +18,7 @@ $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 echo "<!doctype html>
 <html lang=\"en\">
 <head>
-  <meta http-equiv=\"refresh\" content=\"5\" > 
+  <meta http-equiv=\"refresh\" content=\"30\" > 
   <meta charset=\"utf-8\">
   <link rel=\"stylesheet\" href=\"styles.css\" type=\"text/css\" />
   <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
