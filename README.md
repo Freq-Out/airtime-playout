@@ -23,11 +23,10 @@ DESC LIMIT 2
 This will display the broadcasted time (trimmed of its year/month/day because we don't care), adapted to the Paris timezone (GMT+1 at the time of this writing), then the title, artist and album name.
 
 
-
-| broadcast_time | track_title | artist_name  |album_title | 
-| ------------- |:-------------:| -----:|
-| 23:27:20      | New life 		| Irene Moon and the collection | | 
-| 23:24:49      | Teen Tonic	| Pierre Henry & Michel Colombier | More Phonoanomalies for Hi-Fi Bugs |
+| broadcast_time  | track_title   | artist_name   | album_title   | 
+| -------------   | :----------:  | :----------:  | :----------:  |
+| 23:27:20        | Title Powa  	| Babar Tist    | Anal Bum      | 
+| 23:24:49        | Patrack       | Anar Tist     | Bootleg       |
 
 Once you have your table, skin it as you like.
 
