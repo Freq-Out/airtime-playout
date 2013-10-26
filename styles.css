@@ -65,7 +65,7 @@ background:#929292;
 .fixed{
   top:0;
   position:fixed;
-  max-width:80%;
+  max-width:79%;
   display:none;
   border:none;
 }
