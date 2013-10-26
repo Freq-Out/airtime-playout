@@ -23,6 +23,9 @@ h1{
 table{
   border-collapse:collapse;
   width:100%;
+  box-shadow: 1px 1px 10px 5px rgba(221,221,221,1);
+-webkit-box-shadow: 1px 1px 10px 5px rgba(221,221,221,1);
+-moz-box-shadow: 1px 1px 10px 5px rgba(221,221,221,1);
 }
 
 .green{
@@ -50,7 +53,7 @@ tbody tr:nth-child(even){
 }
 
 tbody tr:hover{
-background:#BDC3C7;
+background:#929292;
   color:#FFFFFF;
 }
 
