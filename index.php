@@ -26,7 +26,10 @@ echo "<!doctype html>
   <script src=\"fix-header.js\" type=\"text/javascript\"></script>
 </head>
 <body>
+
   <div class=\"container\">
+  <img src=\" echo http://phauneradio.com/wp-content/uploads/www-logo-phaune.png>\"
+
 <h1>HISTORIQUE ANTENNE</h1>
   
   <table class=\"green\">\n
@@ -38,7 +41,8 @@ echo "<!doctype html>
       <th>Album</th>
     </tr>
   </thead>
-  <tbody>";
+  <tbody>
+  ";
 while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
     echo "\t<tr>\n";
     foreach ($line as $col_value) {
