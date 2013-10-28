@@ -7,7 +7,7 @@ This is an example of how to display a playout history for Airtime.
 
 Basically, what you want to display, at GMT+1 (Paris, winter time) is, as a PgSQL request:
 
-```
+```sql
 SELECT to_char(cc_schedule.starts + time '01:00','HH24:MI:SS') AS broadcast_time,
 cc_files.track_title,
 cc_files.artist_name,
