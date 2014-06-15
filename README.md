@@ -20,7 +20,7 @@ ORDER BY cc_schedule.starts
 DESC LIMIT 2
 ```
 
-This will display the broadcasted time (trimmed of its year/month/day because we don't care), adapted to the Paris timezone (GMT+1 at the time of this writing), then the title, artist and album name.
+This will display the broadcasted time (trimmed of its year/month/day because we don't care), adapted to the Paris timezone (GMT+2 at the time of this writing), then the title, artist and album name.
 
 
 | broadcast_time  | track_title   | artist_name   | album_title   | 
