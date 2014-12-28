@@ -5,7 +5,7 @@ $dbconn = pg_connect("host=localhost dbname=airtime user=airtime password=airtim
     or die('Could not connect: ' . pg_last_error());
 
 // http://www.w3resource.com/PostgreSQL/postgresql-join.php
-$query = 'SELECT to_char(cc_schedule.starts + time \'02:00\',\'HH24:MI\'),cc_files.track_title,cc_files.artist_name,cc_files.album_title
+$query = 'SELECT to_char(cc_schedule.starts + time \'01:00\',\'HH24:MI\'),cc_files.track_title,cc_files.artist_name,cc_files.album_title
 FROM cc_files
 INNER JOIN cc_schedule 
 ON cc_files.id=cc_schedule.file_id
